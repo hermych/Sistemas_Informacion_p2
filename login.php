@@ -3,15 +3,20 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="img/gotita.png" type="image/x-icon" href="imagenes/sh.ico">
+	<link rel="shorcut icon" type="image/x-icon" href="img/gotita.ico">
 	<link REL="StyleSheet" HREF="css/estilos_login.css" TYPE="text/css">
 
 	<title>Sedapal</title>
 
 <!-- fuente-->
 	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+
+	
 </head>
 <body>
 	<div class="conteiner">
