@@ -43,63 +43,58 @@
         <form action="" class="formularioRegistro">
             <div class="contenedorGlobal" >
                 <div class="contenedor1">
-                    <div class="input nis">
-                        <label>N.I.S:</label>
-                        <input type="text" id="nis" name="nis" placeholder="Inserte N.I.S">
+                    <div class="input nombre">
+                        <label>Nombre(s):</label>
+                        <input type="text" id="nis" name="nis" placeholder="Ingrese nombres completos">
                     </div>
-                    <div class="input cliente">
-                        <label>Cliente:</label>
-                        <input type="text" id="cliente" name="cliente" placeholder="Nombre del Cliente">
-                    </div>
-                    <div class="input suministro">
-                        <label>Suministro:</label>
-                        <select name="suministro" id="suministro">
-                            <option value="En uso">En uso</option>
-                            <option value="Retirado por baja">Retirado por baja</option>
+                    <div class="input tipoDoc">
+                        <label>Tipo de Documento:</label>
+                        <select name="TipoDocumento" id="TipoDocumento">
+                            <option value="DNI">DNI</option>
+                            <option value="Carne de Extranjeria">Carne de Extranjeria</option>
                         </select>
                     </div>
-                    <div class="input periodo">
-                        <label>Periocidad de Facturacion:</label>
-                        <input type="text" id="periodo" name="periodo" placeholder="Ingrese periodo de Facturacion">
-                    </div>
-                    <div class="input direccion">
-                        <label>Direccion del medidor:</label>
-                        <input type="text" id="direccion" name="direccion" placeholder="Ingrese direccion local">
-                    </div>
-                    <div class="input tipo">
-                        <label>Tipo:</label>
-                        <select name="TipoMedidor" id="TipoMedidor">
-                            <option value="Medidor Simple Horario">Medidor Simple Horario</option>
-                            <option value="Medidor Multiplicando">Medidor Multiplicando</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="contenedor2">
-                    <div class="input añoFabricacion">
-                        <label>Año de Fabricacion:</label>
-                        <input type="text" id="añoFabricacion" name="añoFabricacion" placeholder="Ingrese año de Fabricacion">
-                    </div>
-                    <div class="input añoInstalacion">
-                        <label>Fecha de Instalacion:</label>
-                        <input type="date" name="fechaInstalacion" id="fechaInstalacion">
-                    </div>
-                    <div class="input marca">
-                        <label>Marca:</label>
-                        <select name="marcaMedidor" id="marcaMedidor">
-                            <option value="Elster">Elster</option>
-                            <option value="Itrom">Itrom</option>
-                            <option value="Ningbo">Ningbo</option>
+                    <div class="input tipoPersona">
+                        <label>Tipo de Persona:</label>
+                        <select name="TipoPersona" id="TipoPersona">
+                            <option value="Natural">Natural</option>
+                            <option value="Jurídica">Jurídica</option>
                         </select>
                     </div>
                     <div class="input departamento">
-                        <label>Departamento:</label>
+                        <label>Departamento Actual:</label>
                         <select name="departamento" id="departamento">
                             <option value="Lima">Lima</option>
                             <option value="Callao">Callao</option>
                         </select>
                     </div>
+                    <div class="input direccion">
+                        <label>Direccion Actual:</label>
+                        <input type="text" id="direccion" name="direccion" placeholder="Ingrese direccion actual">
+                    </div>
+                </div>
+                <div class="contenedor2">
+                    <div class="input apellidos">
+                        <label>Apellidos:</label>
+                        <input type="text" id="añoFabricacion" name="añoFabricacion" placeholder="Ingrese apellidos completos">
+                    </div>
+                    <div class="input numeroDoc">
+                        <label>Número de documento:</label>
+                        <input type="text" id="numDocumento" maxlength="8" name="numDocumento" placeholder="Ingrese número de documento">
+                    </div>
+                    <div class="input paisProc">
+                        <label>Pais de Procedencia:</label>
+                        <select name="paisProcedencia" id="paisProcedencia">
+                            <option value="Peru">Perú</option>
+                            <option value="Colombia">Colombia</option>
+                            <option value="Argentina">Argentina</option>
+                            <option value="Venezuela">Venezuela</option>
+                            <option value="Brasil">Brasil</option>
+                            <option value="Bolivia">Bolivia</option>
+                        </select>
+                    </div>
                     <div class="input distrito">
-                        <label>Distrito:</label>
+                        <label>Distrito Actual:</label>
                         <select name="distrito" id="distrito">
                             <option value="Lima">Callao</option>
                             <option value="Callao">Bellavista</option>
