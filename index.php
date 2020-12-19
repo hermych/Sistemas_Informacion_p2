@@ -18,8 +18,8 @@
                     <li>
                         <a href="">Registrar</a>
                         <ul>
-                            <li><a href="registrarMedidor.html">Medidor</a></li>
-                            <li><a href="registrarCliente.html">Cliente</a></li>
+                            <li><a href="registrarMedidor.php">Medidor</a></li>
+                            <li><a href="registrarCliente.php">Cliente</a></li>
                         </ul>
                     </li>
                     <li><a href="">Editar</a>
