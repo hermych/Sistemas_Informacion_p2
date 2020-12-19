@@ -6,6 +6,7 @@
     <title>Sedapal | Editar Cliente</title>
     <link rel="icon" type="icon/png" href="img/icono_sedapal.png">
     <link rel="stylesheet" href="css/principal.css">
+    <link rel="stylesheet" href="css/BuscarCliente.css">
 </head>
 <body>
     <!-- AQUI EMPIEZA EL MENU -->
@@ -37,7 +38,7 @@
                 </ul>
         </section>
     </header>
-    <form action="buscarCliente.php" method="POST">
+    <form action="buscarCliente.php" method="POST" class="from_buscar">
         <input type="text" name="numDoc" placeholder="Consultar DNI">
         <input type="submit" name="buscar" id="buscar">
     </form>
@@ -61,7 +62,7 @@
                     $distrito = $row['distrito'];
                     $direccion = $row['direccion'];
                     ?>
-                    <div>
+                    <div class="tabla">
                          <h2 class="tituloBuscar">Lista de Clientes</h2>
                          <table border="1">
                              <tbody>
