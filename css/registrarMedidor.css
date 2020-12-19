@@ -1,0 +1,56 @@
+.formularioRegistro{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.contenedorGlobal{
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    width: 1200px;
+    height: 80vh;
+}
+.contenedor1, .contenedor2{
+    width: 550px;
+}
+.contenedorGlobal .contenedor1 .input, .contenedor2 .input{
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    height: 60px;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+.contenedorGlobal .contenedor1 .input label, .contenedor2 .input label{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif; 
+    color: #00084d;
+    margin-bottom: 10px;
+}
+.contenedorGlobal .contenedor1 .input input, .contenedor2 .input input{
+   height: 100%;
+   color: #00084d;
+   padding: 20px;
+}
+.contenedorGlobal .contenedor1 .input select, .contenedor2 .input select{
+    height: 100%;
+    padding: 10px;
+}
+button{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+    width: 120px;
+    margin: auto;
+    margin-top: -50px;
+  }
+button:hover{
+    color: #1883ba;
+    background-color: #ffffff;
+}
