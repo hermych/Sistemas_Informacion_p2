@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sedapal | Servicio de Agua Potable y Alcantarillado de Lima</title>
+    <title>Sedapal | Editar Cliente</title>
     <link rel="icon" type="icon/png" href="img/icono_sedapal.png">
     <link rel="stylesheet" href="css/principal.css">
 </head>
@@ -38,16 +38,7 @@
         </section>
     </header>
     <!-- AQUI TERMINAR EL MENU -->
-    <!-- AQUI EMPIEZA EL CONTENIDO PRINCIPAL -->
-    <div class="principal">
-        <section class="contenido">
-            <p class="welcome">Bienvenido</p>
-            <p class="where">al Sistema de Sedapal</p>
-            <p class="description">"Servicio de Agua Potable y Alcantarillado de Lima</p>
-            <img src="img/trabajar.png" alt="">
-        </section>
-    </div>
-    <!-- AQUI TERMINA EL CONTENIDO PRINCIPAL -->
+    
     <!-- AQUI EMPIEZA EL FOOTER -->
     <div class="footer">
         <div class="redes">

@@ -26,13 +26,13 @@
                     <li><a href="">Editar</a>
                         <ul>
                             <li><a href="#">Medidor</a></li>
-                            <li><a href="#">Cliente</a></li>
+                            <li><a href="editarCliente.php">Cliente</a></li>
                         </ul>
                     </li>
                     <li><a href="">Buscar</a>
                         <ul>
                             <li><a href="#">Medidor</a></li>
-                            <li><a href="#">Cliente</a></li>
+                            <li><a href="buscarCliente.php">Cliente</a></li>
                         </ul>
                     </li>
                 </ul>
