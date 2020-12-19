@@ -51,13 +51,16 @@ input[type="submit"]:hover{
 }
 table{
 	border: none;
+
 }
 .tabla tr th{
 	 border:black;
 	background: #1f6f8b;
 	font-size: 18px;
 	padding: 20px;
+
 	text-align: center;
+	color: white;
 }
 
 
