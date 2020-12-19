@@ -30,18 +30,18 @@
 			</div>
 			
 			
-			<form class= "form"  action=""   onsubmit="return validar()">
+			<form class= "form"  action="conectar.php"  method="post" onsubmit="return validar()">
 
 					<h2>Bienvenido</h2>
 
 					<div class="div-input" for="">
 						<h3>Usuario:</h3>
-						<input class="input" id="user"   type="text">
+						<input class="input" id="user"   type="text" name="username">
 					</div>
 
 					<div class="div-input" for="">
 						<h3>Contraseña:</h3>
-						<input class="input" id="pass"  type="password">
+						<input class="input" id="pass"  type="password" name="password">
 					</div>
 						
 					<input type="submit" value="Ingresar" class="btn"/>
