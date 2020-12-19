@@ -1,6 +1,8 @@
 <?php
-    $db_host="localhost";
-    $db_nombre="bdsistinformacion";
-    $db_usuario="root";
-    $db_contra="";
+    $host="localhost";
+    $nombre="bdsistemacomercial";
+    $usuario="root";
+    $contra="";
+
+    $conex = mysqli_connect($host, $usuario, $contra, $nombre)
 ?> 
