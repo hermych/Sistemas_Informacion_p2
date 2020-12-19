@@ -6,6 +6,7 @@
     <title>Sedapal | Editar Cliente</title>
     <link rel="icon" type="icon/png" href="img/icono_sedapal.png">
     <link rel="stylesheet" href="css/principal.css">
+    <link rel="stylesheet" href="css/BuscarCliente.css">
 </head>
 <body>
     <!-- AQUI EMPIEZA EL MENU -->
@@ -51,7 +52,8 @@
         $consulta = "SELECT * FROM cliente WHERE idcliente LIKE '$id2'";
         $resultado = mysqli_query($conex, $consulta);
         while ($row = mysqli_fetch_array($resultado)) { ?>
-            <table border="1">
+            <div class="tabla">
+            <table border="1" >
                 <tbody>
                     <tr>
                         <th>ID</th>
@@ -115,6 +117,8 @@
                     </tr>
                 </tbody>
             </table>
+        </body>
+    </div>
             <button type="submit" name="registrar" id="registrar">Modificar</button>
         <?php    
         }
