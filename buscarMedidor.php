@@ -37,57 +37,63 @@
                 </ul>
         </section>
     </header>
-    <form action="buscarCliente.php" method="POST">
-        <input type="text" name="numDoc" placeholder="Consultar DNI">
+    <form action="buscarMedidor.php" method="POST">
+        <input type="text" name="nis" placeholder="Consultar N.I.S">
         <input type="submit" name="buscar" id="buscar">
     </form>
     <!-- AQUI EMPIEZA EL PHP -->
     <?php
         $inc=include("database.php");
         if (isset($_POST['buscar'])) {
-            $numDoc = $_POST['numDoc'];
-            $consulta = "SELECT * FROM cliente WHERE numDoc LIKE '$numDoc'";
+            $nis = $_POST['nis'];
+            $consulta = "SELECT * FROM medidor WHERE nis LIKE '$nis'";
             $resultado = mysqli_query($conex, $consulta);
             if ($resultado) {
                 while ($row = $resultado->fetch_array()) {
-                    $id = $row['idcliente'];
-                    $nombre = $row['nombre'];
-                    $apellidos = $row['apellidos'];
-                    $tipoDoc = $row['tipoDoc'];
-                    $numDoc = $row['numDoc'];
-                    $tipoPersona = $row['tipoPersona'];
-                    $pais = $row['pais'];
+                    $id = $row['idmedidor'];
+                    $añoFabricacion = $row['añoFabricacion'];
+                    $fechaInstalacion = $row['fechaInstalacion'];
+                    $nis = $row['NIS'];
+                    $suministro = $row['suministro'];
+                    $marcaMedidor = $row['marca'];
+                    $TipoMedidor = $row['tipo'];
+                    $periodo = $row['priodicidad'];
+                    $dni = $row['DNI'];
                     $departamento = $row['departamento'];
-                    $distrito = $row['distrito'];
                     $direccion = $row['direccion'];
+                    $distrito = $row['distrito'];
                     ?>
                     <div>
-                         <h2 class="tituloBuscar">Lista de Clientes</h2>
+                         <h2 class="tituloBuscar">Lista de Medidores</h2>
                          <table border="1">
                              <tbody>
                                  <tr>
                                      <th>ID</th>
-                                     <th>Nombre</th>
-                                     <th>Apellidos</th>
-                                     <th>Tipo Doc</th>
-                                     <th>Numero Doc</th>
-                                     <th>Tipo Persona</th>
-                                     <th>Pais</th>
+                                     <th>Año Fabricación</th>
+                                     <th>Fecha Instalación</th>
+                                     <th>NIS</th>
+                                     <th>Suministro</th>
+                                     <th>Marca Medidor</th>
+                                     <th>Tipo Medidor</th>
+                                     <th>Facturación</th>
+                                     <th>DNI Cliente</th>
                                      <th>Departamento</th>
+                                     <th>Dirección</th>
                                      <th>Distrito</th>
-                                     <th>Direccion</th>
                                  </tr>
                                  <tr>
                                      <th><?php echo $id ?></th>
-                                     <td><?php echo $nombre ?></td>
-                                     <td><?php echo $apellidos ?></td>
-                                     <td><?php echo $tipoDoc ?></td>
-                                     <td><?php echo $numDoc ?></td>
-                                     <td><?php echo $tipoPersona ?></td>
-                                     <td><?php echo $pais ?></td>
+                                     <td><?php echo $añoFabricacion ?></td>
+                                     <td><?php echo $fechaInstalacion ?></td>
+                                     <td><?php echo $nis ?></td>
+                                     <td><?php echo $suministro ?></td>
+                                     <td><?php echo $marcaMedidor ?></td>
+                                     <td><?php echo $TipoMedidor ?></td>
+                                     <td><?php echo $periodo ?></td>
+                                     <td><?php echo $dni ?></td>
                                      <td><?php echo $departamento ?></td>
-                                     <td><?php echo $distrito ?></td>
                                      <td><?php echo $direccion ?></td>
+                                     <td><?php echo $distrito ?></td>
                                  </tr>
                              </tbody>
                          </table>
@@ -97,7 +103,7 @@
             }
         }
         // if($inc){
-        //    $consulta = "SELECT * FROM cliente";
+        //    $consulta = "SELECT * FROM medidor";
         //    $resultado = mysqli_query($conex, $consulta);
         //    if ($resultado) {
                 
