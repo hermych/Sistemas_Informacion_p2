@@ -1,8 +1,13 @@
+/*body{
+    height: 1200vh;
+}*/
+
 .formularioRegistro{
     margin-top: 50px;
     display: flex;
     flex-direction: column;
 }
+
 .contenedorGlobal{
     display: flex;
     margin: auto;
@@ -38,6 +43,7 @@
     padding: 10px;
 }
 button{
+
     text-decoration: none;
     padding: 10px;
     font-weight: 600;
@@ -47,8 +53,9 @@ button{
     border-radius: 6px;
     border: 2px solid #0016b0;
     width: 120px;
-    margin: auto;
-    margin-top: -50px;
+
+    margin: 50px auto;
+    /*margin-top: -50px;*/
   }
 button:hover{
     color: #1883ba;
