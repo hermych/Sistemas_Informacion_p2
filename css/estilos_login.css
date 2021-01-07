@@ -18,7 +18,6 @@
 
 
 	/*  gradient*/
-	/*background: linear-gradient(to right, #2980b9, #6dd5fa, #ffffff);*/
 	  background: linear-gradient(to right, #000046, #1cb5e0);
 	background-repeat: no-repeat;
     background-attachment: fixed;
@@ -43,7 +42,7 @@
 	justify-content: space-around;
 	align-items: center;
 	flex-direction: column;
-	/*position: relative;*/
+	box-shadow: 0 2.5px 6px rgba(45, 45,45,0.2);
 
 }
 
