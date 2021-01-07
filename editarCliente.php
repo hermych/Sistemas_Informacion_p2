@@ -107,7 +107,6 @@
         }
 
     ?>
-
     <!-- AQUI EMPIEZA EL FOOTER -->
     <div class="footer">
         <div class="redes">

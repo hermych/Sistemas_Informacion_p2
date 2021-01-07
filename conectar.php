@@ -18,7 +18,7 @@ $filas = mysqli_num_rows($resultado);
 
 if ($filas) {
 	# code...
-	header("location:index.php");
+	header("location:bienvenido.php");
 }else{
 	?>
 	<?php
