@@ -40,8 +40,9 @@
     </header>
     <!-- AQUI TERMINAR EL MENU -->
     <div class="formularioContainer">
-        <form action="registrarCliente.php" class="formularioRegistro" method="POST">
-            <div class="contenedorGlobal" >
+        <form action="registrarCliente.php" class="formularioRegistro" method="POST" onsubmit="return validar()">
+
+            <div class="contenedorGlobal"  >
                 <div class="contenedor1">
                     <div class="input nombre">
                         <label>Nombre(s):</label>
@@ -156,7 +157,8 @@
                         }
                 }else {
                     ?> 
-                    <h3 class="bad">¡Por favor complete los campos!</h3>
+                    <script src="js/validarCliente.js"></script>
+                    <!-- <h3 class="bad">¡Por favor complete los campos!</h3> -->
                 <?php
                 }
             }
@@ -175,4 +177,8 @@
     </div>
     
 </body>
+<!--  -->
+<!-- <script src="js/validarCliente.js"></script> -->
+    <!-- alert sweet -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 </html>

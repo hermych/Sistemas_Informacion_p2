@@ -24,6 +24,8 @@ if ($filas) {
 	<?php
 	include("login.php");
 	?>
+
+	
 	<h1 class="bad"> ERROR EN AUTENTIFICAR USUARIO</h1>
 	
 
