@@ -6,7 +6,7 @@
     <title>Registrar Medidor</title>
     <link rel="icon" type="icon/png" href="img/icono_sedapal.png">
     <link rel="stylesheet" href="css/principal.css">
-    <link rel="stylesheet" href="css/registrarMedidor.css">
+    <link rel="stylesheet" href="css/registrarMedidor.css"> 
 </head>
 <body>
     <!-- AQUI EMPIEZA EL MENU -->
@@ -170,7 +170,7 @@
             }else {
                 ?> 
                  <script src="js/validarMedidor.js"></script>
-                <!-- <h3 class="bad">¡Por favor complete los campos!</h3 -->>
+                <!-- <h3 class="bad">¡Por favor complete los campos!</h3 -->
             <?php
             }
         }
