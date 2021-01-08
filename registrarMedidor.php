@@ -42,7 +42,7 @@
     
     <!-- Aqui empieza el formulario de registro -->
     <div class="formularioContainer">
-        <form action="registrarMedidor.php" class="formularioRegistro" method="POST">
+        <form action="registrarMedidor.php" class="formularioRegistro" method="POST" onsubmit="return validar()">
             <div class="contenedorGlobal" >
                 <div class="contenedor1">
                     <div class="input nis">
@@ -124,7 +124,8 @@
                     </div>
                 </div>
             </div>
-            <button type="submit" name="registrar" id="registrar">Registrar</button>
+            <button type="submit" name="registrar" id="registrar">  Registrar
+            </button>
         </form>
     </div>
     <!-- Aqui terminar el formulario de registro -->
@@ -168,7 +169,8 @@
                     }
             }else {
                 ?> 
-                <h3 class="bad">¡Por favor complete los campos!</h3>
+                 <script src="js/validarMedidor.js"></script>
+                <!-- <h3 class="bad">¡Por favor complete los campos!</h3 -->>
             <?php
             }
         }
@@ -188,4 +190,5 @@
     <!-- Aqui termina el footer -->
     
 </body>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 </html>
