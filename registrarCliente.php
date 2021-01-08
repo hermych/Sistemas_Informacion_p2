@@ -42,7 +42,8 @@
     <div class="formularioContainer">
         <form action="registrarCliente.php" class="formularioRegistro" method="POST" onsubmit="return validar()">
 
-            <div class="contenedorGlobal"  >
+            <div class="contenedorGlobal">
+                
                 <div class="contenedor1">
                     <div class="input nombre">
                         <label>Nombre(s):</label>

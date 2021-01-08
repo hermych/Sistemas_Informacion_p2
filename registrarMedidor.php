@@ -19,8 +19,8 @@
                     <li>
                         <a href="">Registrar</a>
                         <ul>
-                            <li><a href="registrarMedidor.php">Medidor</a></li>
-                            <li><a href="registrarCliente.php">Cliente</a></li>
+                            <li> <a href="registrarMedidor.php" >Medidor</a></li>
+                            <li><a href="registrarCliente.php" >Cliente</a></li>
                         </ul>
                     </li>
                     <li><a href="">Editar</a>
@@ -29,7 +29,7 @@
                             <li><a href="editarCliente.php">Cliente</a></li>
                         </ul>
                     </li>
-                    <li><a href="">Buscar</a>
+                    <li><a href="" class="ico_buscar">Buscar </a>
                         <ul>
                             <li><a href="#">Medidor</a></li>
                             <li><a href="buscarCliente.php">Cliente</a></li>
