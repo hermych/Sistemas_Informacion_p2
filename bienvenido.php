@@ -11,7 +11,7 @@
     <!-- AQUI EMPIEZA EL MENU -->
     <header>
         <section class="icono_principal">
-            <img src="img/logo.png" alt="logo principal">
+            <a href="bienvenido.php"><img src="img/logo.png" alt="logo principal"></a>
         </section>
         <section class="menu">
                 <ul class="nav">
@@ -33,6 +33,9 @@
                             <li><a href="#">Medidor</a></li>
                             <li><a href="buscarCliente.php">Cliente</a></li>
                         </ul>
+                    </li>
+                    <li>
+                        <a href="">Cerrar Sesion</a>
                     </li>
                 </ul>
         </section>
