@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registrar Cliente</title>
+    <title>Registrar Medidor</title>
     <link rel="icon" type="icon/png" href="img/icono_sedapal.png">
     <link rel="stylesheet" href="css/principal.css">
     <link rel="stylesheet" href="css/registrarMedidor.css">
