@@ -4,18 +4,21 @@
 }
 
 /* AQUI EMPIEZA ESTILOS A MENU */
-header{
-    margin: 0px auto;
+.contenedor-header{
+    /* margin: 0px auto; */
     /* padding: 10px; */
+    width: 100%px;
+    height: 20%;
     display: flex;
     /* width: 1200px; */
-    width: 100%px;
+    
     font-family: Arial, Helvetica, sans-serif;
 /* padding: 10px 80px ; */
     padding: 20px;
-    font-size: 20px;
+    font-size: 15px;
     justify-content: space-around;
     align-items: center;
+
     background: #035aa6;
 }
 .icono_principal img{
@@ -36,20 +39,20 @@ ul, ol{
     border-bottom:3px solid #fff;
     color: #fff;
     text-decoration: none;
-    padding: 10px 15px;
+    padding: 10px 10px;
     display: block;
     width: 150px;
-    margin-left: 5px;
+    margin-left: 15px;
+    font-weight: bold;
 }
 .nav > li{
     float: left;
 }
 .nav li a:hover{
-    background-color: #4d80e4;
-}
-
-.nav li a:hover{
-    background-color: #4d80e4;
+    
+    background-color: #fff;
+    color: #4d80e4;
+    border-bottom: 3px solid  #4d80e4;
 }
 .nav li ul{
     display: none;
