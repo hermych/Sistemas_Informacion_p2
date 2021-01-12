@@ -5,18 +5,23 @@
 
 /* AQUI EMPIEZA ESTILOS A MENU */
 header{
-    margin: 10px auto;
-    padding: 10px;
+    margin: 0px auto;
+    /* padding: 10px; */
     display: flex;
-    width: 1200px;
-  font-family: Arial, Helvetica, sans-serif;
-
+    /* width: 1200px; */
+    width: 100%px;
+    font-family: Arial, Helvetica, sans-serif;
+/* padding: 10px 80px ; */
+    padding: 20px;
     font-size: 20px;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    background: #035aa6;
 }
 .icono_principal img{
+    margin-left: 50px;
     width: 200px;
+    height: 70px;
 }
 ul, ol{
     list-style: none;
@@ -27,7 +32,7 @@ ul, ol{
 }
 .menu .nav li a{
 
-    background-color:#494ca2;
+    background-color:#035aa6;
     border-bottom:3px solid #fff;
     color: #fff;
     text-decoration: none;
@@ -40,7 +45,11 @@ ul, ol{
     float: left;
 }
 .nav li a:hover{
-    background-color: #8186d5;
+    background-color: #4d80e4;
+}
+
+.nav li a:hover{
+    background-color: #4d80e4;
 }
 .nav li ul{
     display: none;
@@ -91,15 +100,15 @@ ul, ol{
 /* AQUI TERMINA ESTILOS PARA EL CUERPO */
 .footer{
     display: flex;
-    width: 1160px;
-    margin: 20px auto;
+    width: 100%;
+    margin: 0px auto;
     justify-content: space-around;
     padding: 20px;
     align-items: center;
-    background-color: #afdde8;
+    background-color: #035aa6;
     font-size: 20px;
     font-weight: 800;
-    color: #077cf6;
+    color: #fff;
 
 }
 .redes a img{
