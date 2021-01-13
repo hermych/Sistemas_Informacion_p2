@@ -12,7 +12,7 @@
 }
 .conteiner{
 	/*background: red;*/
-	background-image: url(../img/320.jpg); 
+	background-image: url(../img/360.png); 
 	display: grid;
 	height: 100vh;
 	grid-template-columns: 3fr 2fr 3fr;
