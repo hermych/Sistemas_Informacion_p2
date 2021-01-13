@@ -7,21 +7,24 @@
 
 /* AQUI EMPIEZA ESTILOS A MENU */
 .contenedor-header{
-    /* margin: 0px auto; */
-    /* padding: 10px; */
-    width: 100%px;
-    height: 20%;
+    width: 100%;
+    height: 50%;
     display: flex;
-    /* width: 1200px; */
-    
     font-family: Arial, Helvetica, sans-serif;
-/* padding: 10px 80px ; */
     padding: 20px;
     font-size: 18px;
     justify-content: space-around;
     align-items: center;
 
     background: #035aa6;
+    /*background-image: url(../img/banner.jpg); */
+    background-size:cover; 
+    background-position: center center;
+    background-attachment: fixed;
+
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
 }
 .icono_principal img{
     margin-left: 50px;
@@ -64,9 +67,6 @@ ul, ol{
 .nav li:hover > ul{
     display: block;
 }
-
-
-
 
 /*AQUI TERMINA ESTILOS PARA EL MENU  */
 

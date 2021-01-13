@@ -7,42 +7,59 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	
 
 }
 .conteiner{
 	/*background: red;*/
+	background-image: url(../img/320.jpg); 
 	display: grid;
 	height: 100vh;
 	grid-template-columns: 3fr 2fr 3fr;
 	grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-
-
-	/*  gradient*/
-	  background: linear-gradient(to right, #000046, #1cb5e0);
-	background-repeat: no-repeat;
+	 /*background: linear-gradient(to right, #000046, #1cb5e0);*/
+   background-size:cover; 
+    background-position: center center;
     background-attachment: fixed;
+
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
 
 }
 
 .cont-login{
 	
-	background: #f1f1f1;
+	
 	grid-column-start: 2 ;
 	grid-column-end: 3;
 
 	grid-row-start: 2;
 	grid-row-end: 5;
 
+	/*background-image: url(../img/section_1.png); */
+
 	/*grid-column: col3/col5;
 	grid-row: fil2/fil6;*/
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 800;		
-	border-radius: 10px;
+	
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
 	flex-direction: column;
 	box-shadow: 0 2.5px 6px rgba(45, 45,45,0.2);
+
+	background: #fff;
+	/*background-image: url(../img/fondo_celular.jpg);*/ 
+
+	background-size:cover; 
+    background-position: center50%;
+    background-attachment: fixed;
+
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
 
 }
 
@@ -52,8 +69,8 @@
 	width: 100px;*/
 }
 .form{
+	/*background: #fff;*/
 	
-	/*background: red;*/
 	height: 60%;
 	width: 85%;
 	display: flex;
@@ -79,21 +96,20 @@
 
 .btn{
 
-	
-  background-color: #41aea9;
-  color: white;
-  padding: 5px 10px ;
-  font-size: 18px;
-  border: none;
-  cursor: pointer;
-  width: 50%;
- 
+	background-color: #394989;
+  	color: white;
+  	padding: 5px 10px ;
+  	font-size: 18px;
+  	border: none;
+  	cursor: pointer;
+  	width: 50%;
+ 	border-radius: 7px;
 }
 
 input[type="submit"]:hover{
 	background: #0a043c;
 	border:  0px;
-	
+	border-radius: 7px;
 	color: white;
 	
 	transition:background .5s, color .5s;
@@ -106,9 +122,16 @@ input[type="submit"]:hover{
 	color: #0a043c;
 
 }
+h3{
+	font-size: 15px;
+}
 input[type="text"] ,input[type="password"]{
 /*height: 100%;*/
-width: 100%;
-height: 50%;
+	width: 100%;
+	height: 60%;
+	padding: 2px 10px;
+	border-radius: 3px;
+	margin-top: 5px;
+
 
 }
