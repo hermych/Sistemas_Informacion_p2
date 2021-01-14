@@ -25,7 +25,7 @@
 
 			<div class="div-logo"> 
 				
-				<img src="img/logo.png" height="100" width="200" alt="">
+				<img src="img/logo.png" height="120" width="240" alt="">
 				
 			</div>
 			
