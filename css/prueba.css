@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.formularioContainer{
+  
+
+    font-family: Arial, Helvetica, sans-serif; 
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.formularioRegistro{
+    background: #fff;
+    border: 1.5px solid #000;
+    border-radius: 10px;
+    width: 70%;
+    height: 80%;
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+.contenedorGlobal{
+    
+    color:#035aa6;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    height: 70%;
+    width: 95%;
+    
+}
+h1{
+    font-size: 20px;
+}
+.contenedor1,.contenedor2 {
+    
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.input{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contenedor1{
+    margin-right: 100px;
+}
+
+input, select{
+    
+    width: 50%;
+    height: 30px;
+    padding: 0px 10px;
+    font-size: 15px;
+    border: none;
+    border: 1px solid #393e46;
+    border-radius: 5px;
+}
+
+/* --------  boton registrar --------------- */
+
+button{
+    height: 38px;
+    width: 120px;
+    border: 0px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    background: #617be3;
+}
+button:hover{
+    background: #4a69bb;
+
+}

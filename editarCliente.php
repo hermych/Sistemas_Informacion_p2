@@ -4,16 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sedapal | Editar Cliente</title>
-    <link rel="icon" type="icon/png" href="img/icono_sedapal.png">
+    <link rel="icon" type="icon/png" href="img/gotita.ico">
     <link rel="stylesheet" href="css/principal.css">
-    <link rel="stylesheet" href="css/registrarMedidor.css">
+    <link rel="stylesheet" href="css/prueba.css">    
+    <!-- <link rel="stylesheet" href="css/registrarMedidor.css"> -->
     <link rel="stylesheet" href="css/BuscarCliente.css">
 </head>
 <body>
     <!-- AQUI EMPIEZA EL MENU -->
-    <header>
+    <header class="contenedor-header">
         <section class="icono_principal">
-            <<a href="bienvenido.php"><img src="img/logo.png" alt="logo principal"></a>
+        <a href="bienvenido.php"><img src="img/nombre_3.png" alt="logo principal"></a>
         </section>
         <section class="menu">
                 <ul class="nav">

@@ -23,7 +23,7 @@
 
 			<div class="div-logo"> 
 				
-				<img src="img/logo_sedapal.pe_.png" height="100" width="200" alt="">
+				<img src="img/logo.png" height="100" width="220" alt="">
 				
 			</div>
 			
