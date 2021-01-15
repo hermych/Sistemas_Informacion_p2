@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registrar Medidor</title>
-    <link rel="icon" type="icon/png" href="img/icono_sedapal.png">
+    <link rel="shorcut icon" type="image/x-icon" href="img/gotita.ico">
     <link rel="stylesheet" href="css/principal.css">
     <link rel="stylesheet" href="css/prueba.css">    
     <!-- <link rel="stylesheet" href="css/registrarMedidor.css">  -->

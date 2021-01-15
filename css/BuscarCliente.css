@@ -11,6 +11,7 @@
 input[type="text"]{
 	height: 40%;
 	width: 20%;
+	padding: 0px 10px;
 	border: 1px solid #045762;
 
 
@@ -21,7 +22,7 @@ input[type="submit"]{
 	width: 15%;
 	background: #153e90;
 	color: white;
-
+	border-radius: 5px;
 	border: 0px ;
 	font-weight: bold;
 	

@@ -12,7 +12,7 @@
     <!-- AQUI EMPIEZA EL MENU -->
     <header class="contenedor-header">
         <section class="icono_principal">
-            <a href="bienvenido.php"><img src="img/logo.png" alt="logo principal"></a>
+            <a href="bienvenido.php"><img src="img/nombre_3.png" alt="logo principal"></a>
         </section>
         <section class="menu">
                 <ul class="nav">
