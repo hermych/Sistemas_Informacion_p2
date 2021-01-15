@@ -168,7 +168,7 @@
                     <?php
                     }
             }else {
-                ?> 
+    ?> 
                  <script src="js/validarMedidor.js"></script>
                 <!-- <h3 class="bad">¡Por favor complete los campos!</h3 -->
             <?php
